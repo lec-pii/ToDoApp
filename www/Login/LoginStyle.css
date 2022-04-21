@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+    margin: 0px;
+}
+body{
+    position: relative;
+    background-color:lavender;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container{
+    background-color: #1674ea;
+    width: max-content;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+label{
+    font-size: medium;
+}
+input{
+    width: 250px;
+}
+
